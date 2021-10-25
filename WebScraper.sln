@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.API", "WebScraper.API\WebScraper.API.csproj", "{928C9704-E9FD-4C0A-B240-21C9448D410D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "WebScraper.AuthenticationService\AuthenticationService.csproj", "{7C8F279B-D8F0-43AC-B374-51F26F2A8304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.BusinessLogic", "WebScraper.BusinessLogic\WebScraper.BusinessLogic.csproj", "{B9564DB2-0DC2-4C1A-B5B5-34D79BCDB74F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.Common", "WebScraper.Common\WebScraper.Common.csproj", "{A922CDA5-2EE1-4FBE-B959-AA8A03389632}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.DataAccess", "WebScraper.DataAccess\WebScraper.DataAccess.csproj", "{FA258080-65AE-41F7-B7EE-42417683460E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper", "WebScraper.UI\WebScraper.csproj", "{74ED0680-59BA-4BE7-AC90-BEF07E7F626F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{928C9704-E9FD-4C0A-B240-21C9448D410D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928C9704-E9FD-4C0A-B240-21C9448D410D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928C9704-E9FD-4C0A-B240-21C9448D410D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928C9704-E9FD-4C0A-B240-21C9448D410D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8F279B-D8F0-43AC-B374-51F26F2A8304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8F279B-D8F0-43AC-B374-51F26F2A8304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8F279B-D8F0-43AC-B374-51F26F2A8304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8F279B-D8F0-43AC-B374-51F26F2A8304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9564DB2-0DC2-4C1A-B5B5-34D79BCDB74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9564DB2-0DC2-4C1A-B5B5-34D79BCDB74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9564DB2-0DC2-4C1A-B5B5-34D79BCDB74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9564DB2-0DC2-4C1A-B5B5-34D79BCDB74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A922CDA5-2EE1-4FBE-B959-AA8A03389632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A922CDA5-2EE1-4FBE-B959-AA8A03389632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A922CDA5-2EE1-4FBE-B959-AA8A03389632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A922CDA5-2EE1-4FBE-B959-AA8A03389632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA258080-65AE-41F7-B7EE-42417683460E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA258080-65AE-41F7-B7EE-42417683460E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA258080-65AE-41F7-B7EE-42417683460E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA258080-65AE-41F7-B7EE-42417683460E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ED0680-59BA-4BE7-AC90-BEF07E7F626F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ED0680-59BA-4BE7-AC90-BEF07E7F626F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ED0680-59BA-4BE7-AC90-BEF07E7F626F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ED0680-59BA-4BE7-AC90-BEF07E7F626F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1D13B97-FEF9-4C3F-9018-B0FBA8A91388}
+	EndGlobalSection
+EndGlobal
